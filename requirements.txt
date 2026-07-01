@@ -1,0 +1,21 @@
+# Apollo 18 — Self-Improving AI Quantitative Trading Firm
+# Core
+PyQt5>=5.15.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Data sources (free APIs)
+ccxt>=4.0.0
+yfinance>=0.2.0
+
+# ML (all local, no cloud)
+scikit-learn>=1.3.0
+onnxruntime>=1.16.0
+skl2onnx>=1.16.0
+
+# Packaging
+pyinstaller>=6.0.0
+
+# Utilities
+sqlalchemy>=2.0.0  # optional: advanced queries

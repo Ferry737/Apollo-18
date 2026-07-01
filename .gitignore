@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# Data & Models (runtime generated)
+data_cache/*.db
+data_cache/*.sqlite
+logs/*.log
+models/*.onnx
+models/*.h5
+models/*.pkl
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+config/secrets.json
+.env
